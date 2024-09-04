@@ -121,6 +121,7 @@ def spiral(N: int) -> Graph:
     Returns:
         The dataset with information of the sampled points, labels and the number of points.
     """
+
     def x(t: float) -> float:
         return t * math.cos(t) / 20.0
 

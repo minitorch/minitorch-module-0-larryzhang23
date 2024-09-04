@@ -142,7 +142,7 @@ def map(f: Callable[[float], float], x: list[float]) -> list[float]:
 
 def zipWith(
     f: Callable[[float, float], float], x: list[float], y: list[float]
-) -> Iterable[float]:
+) -> list[float]:
     """Higher-order function that combines elements from two iterables using a given function"""
     comb = []
     for x_item, y_item in zip(x, y):

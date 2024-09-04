@@ -35,11 +35,11 @@ class Module:
         self.training = True
         for m in self.modules():
             m.train()
-        
+
     def eval(self) -> None:
         "Set the mode of this module and all descendent modules to `eval`."
         # TODO: Implement for Task 0.4.
-        self.training = False 
+        self.training = False
         for m in self.modules():
             m.eval()
 
