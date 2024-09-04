@@ -6,3 +6,9 @@
 * Docs: https://minitorch.github.io/
 
 * Overview: https://minitorch.github.io/module0/module0/
+
+
+## Task 4
+
+The parameter is -0.99, 0 for linear layer and 0.51 for bias.
+<img src="./assets/manual_task04.png">
